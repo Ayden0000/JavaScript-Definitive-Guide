@@ -1,0 +1,27 @@
+<html>
+<script>
+    //current time as a timestamp
+    let timestamp = Date.now();
+    console.log(timestamp);
+
+    //current time as a date object
+    let now = new Date();
+    console.log(now);
+
+    //convert to millisec
+    let ms = now.getTime();
+    console.log(ms);
+
+    //convert to string
+    let iso = now.toISOString();
+    console.log(iso);
+
+    //current month but its start from 0 and 1
+    let mn = now.getMonth();
+    let mns = [`Jan`,`Feb`,`Mar`,`Apr`,`May`,`June`,`July`,`Aug`,`Sep`,`Oct`,`Nov`,`Dec`];
+
+    console.log(mns[mn]);
+
+</script>
+
+</html>
